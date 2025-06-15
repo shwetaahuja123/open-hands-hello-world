@@ -1,0 +1,8 @@
+# Ignore unnecessary files
+.git
+.gitignore
+README.md
+.vscode
+*.log
+node_modules
+.DS_Store

@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  hello-world-app:
+    build: .
+    ports:
+      - "12000:80"
+    container_name: hello-world-container
+    restart: unless-stopped
